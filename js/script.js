@@ -54,7 +54,7 @@ function getQueryParameter(name) {
         trekking: 'Difficulty: Moderate, Best season: Winter and early monsoon. The trek is popular for its scenic views and the ruins of historical structures.',
         image: 'images/sinhagad.jpg',
         map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.316158263712!2d73.75550487513441!3d18.366587072667636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc293db43d33d2f%3A0x3ee2ac1fdd689e60!2sSinhagad%20Fort!5e0!3m2!1sen!2sin!4v1715156303218!5m2!1sen!2sin',
-        gallery: ['images/sinhagad.jpg', 'images/sinhagad2.jpg', 'images/sinhagad3.jpg']
+        gallery: ['images/sinhagad.jpg', 'images/sinhagad.jpg', 'images/sinhagad.jpg']
       },
       'raigad': {
         name: 'Raigad Fort',
