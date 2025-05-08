@@ -1,0 +1,138 @@
+/* ===== Color Palette Variables ===== */
+:root {
+    --dark-brown: #54494B;
+    --mint-green: #B4EBCA;
+    --sandy-beige: #F1BF98;
+    --teal-green: #41A78E;
+    --deep-teal: #0B7A75;
+    --rock-grey: #7D7D7D;
+  }
+  
+  /* ===== Reset some margins and paddings ===== */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  /* ===== Body Styling ===== */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--mint-green);
+    color: var(--dark-brown);
+  }
+  
+  /* ===== Navbar ===== */
+  .navbar {
+    background-color: var(--green-brown);
+  }
+  
+  .navbar-brand, .nav-link {
+    color: var(--deep-teal) !important;
+  }
+
+  .searchbar{
+    padding-left: 55%;
+  }
+
+  #searchInput::placeholder{
+    color: var(--dark-brown);
+  }
+  
+  /* ===== Section Titles ===== */
+  .title{
+    background-color: var(--rock-grey);
+    color: white
+  }
+
+  h2 {
+    color: var(--deep-teal);
+  }
+  
+  /* ===== Introduction Section ===== */
+  #intro {
+    background-color: var(--sandy-beige);
+    padding: 4rem 0;
+  }
+  
+  /* ===== Featured Forts ===== */
+  #featured-forts .card {
+    background-color: var(--rock-grey);
+    color: white !important;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  #featured-forts .card:hover {
+    transform: scale(1.05);
+  }
+
+  #featured-forts img{
+    height: 250px;
+    width: 100%;
+  }
+
+  #featured-forts .btn{
+    background-color: var(--teal-green); 
+    color: white;
+  }
+
+  .fort-card {
+    transition: opacity 0.3s ease;
+  }  
+
+  #noResults{
+    display: none; 
+    color: #0B7A75; 
+    font-weight: bold;
+  }
+
+  .fort-card-link {
+    display: inline;
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  .fort-card-link:focus {
+    outline: none;
+  }
+
+  /* ===== District Wise Fort List ===== */
+  .accordion-button {
+    background-color: var(--rock-grey);
+    color: white;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: var(--teal-green);
+    color: white;
+  }
+  
+  
+  /* ===== Gallery Section ===== */
+  #gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* ===== Footer ===== */
+  footer {
+    background-color: var(--dark-brown);
+    color: white;
+  }
+  
+
+  /* ===== Fort page ===== */
+  .fort-image{
+    max-height: 400px;
+  }
