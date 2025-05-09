@@ -25,7 +25,7 @@
   
   /* ===== Navbar ===== */
   .navbar {
-    background-color: var(--green-brown);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
   .navbar-brand, .nav-link {
@@ -33,7 +33,7 @@
   }
 
   .searchbar{
-    padding-left: 55%;
+    padding-left: 60%;
   }
 
   #searchInput::placeholder{
@@ -135,4 +135,14 @@
   /* ===== Fort page ===== */
   .fort-image{
     max-height: 400px;
+  }
+
+  /* ===== contact page =====*/
+  .contactForm{
+    padding-top: 2%;
+    padding-left: 30%;
+    padding-bottom: 12%;
+  }
+  .input-field{
+    width: 60%;
   }
